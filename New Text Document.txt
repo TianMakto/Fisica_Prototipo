@@ -1,0 +1,6 @@
+TODO:
+- Pasar todo a C pluh pluh
+- Camara Estatica
+- Lo que le preguntemoh a este seño
+- Que no vuelque, limites a rotacion
+- 
