@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/NewMap.umap",
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/Characters/MyBarco.uasset",
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/Meshes/SuperBarco_pCube9.uasset",
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/Meshes/untitled.uasset",
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/ThirdPerson/Input/Actions/IA_LookAround.uasset",
 				"C:/Users/pablo.adan/Downloads/Dusty (2)/Dusty/Content/Characters/MyBarco.uasset",
 				"C:/Users/pablo.adan/Downloads/Dusty (2)/Dusty/Content/Meshes/SuperBarco_pCube9_001.uasset",
 				"C:/Users/pablo.adan/Downloads/Dusty (2)/Dusty/Content/Meshes/SuperBarco_pCube9.uasset",
