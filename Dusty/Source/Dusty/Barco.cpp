@@ -42,14 +42,19 @@ void ABarco::Accelerate()
 	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Velocity: %f"), GetVelocity().Size() * GetWorld()->GetDeltaSeconds()));
 	if (GetVelocity().Size() <= LowSpeed)
 	{
-		meshBarco->AddImpulse(-meshBarco->GetRightVector() * ImpulseForce);
+		meshBarco->AddImpulse(-GetActorRightVector() * ImpulseForce);
 	}
+	FVector CenterPoint = GetActorLocation() + GetActorForwardVector() * 150;
+	
+	//DrawDebugLine(GetWorld(), GetActorLocation(), GetActorLocation() + -GetActorRightVector() * 2000, FColor::Purple, false, 1.f);
+	DrawDebugLine(GetWorld(), CenterPoint, CenterPoint + -GetActorRightVector() * 2000, FColor::Purple, false, 1.f);
+	DrawDebugLine(GetWorld(), CenterPoint, CenterPoint + GetActorUpVector()* 2000, FColor::Yellow, false, 1.f);
 
-	meshBarco->AddForce(-meshBarco->GetRightVector() * force * GetWorld()->GetDeltaSeconds());
-	//GEngine->
-	//DrawDebugLine(GetWorld(), GetActorLocation(), -meshBarco->GetRightVector() * force, FColor::Purple, false, 1.f);
+	meshBarco->AddForce(-GetActorRightVector() * force * GetWorld()->GetDeltaSeconds());
+
+
 }
-
+//150
 void ABarco::Deccelerate()
 {
 	meshBarco->AddForce(meshBarco->GetRightVector() * force * GetWorld()->GetDeltaSeconds());
