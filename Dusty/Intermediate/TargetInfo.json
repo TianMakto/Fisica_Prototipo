@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Dusty",
+			"Path": "C:\\Users\\carlos.calzada\\Documents\\GitHub\\Fisica_Prototipo\\Dusty\\Source\\Dusty.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DustyEditor",
+			"Path": "C:\\Users\\carlos.calzada\\Documents\\GitHub\\Fisica_Prototipo\\Dusty\\Source\\DustyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
