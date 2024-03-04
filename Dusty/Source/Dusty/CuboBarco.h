@@ -27,11 +27,16 @@ protected:
 	UPROPERTY(EditAnywhere)
 		float ImpulseForce = 500;
 
+	UPROPERTY(EditAnywhere)
+		float AirResistance = 0.1;
+
 	UStaticMeshComponent* meshCubo;
 
 	const float OriginDistanceToFront = 355;
 
 	float DistanceToFront;
+
+	void AirResistanceFunction(float DeltaSeconds);
 
 public:
 	// Called every frame

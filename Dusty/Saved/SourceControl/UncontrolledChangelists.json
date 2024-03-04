@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Github/Fisica_Prototipo/Dusty/Content/Characters/BP_CuboBarco.uasset",
+				"E:/Github/Fisica_Prototipo/Dusty/Content/Meshes/arreglau.uasset",
+				"E:/Github/Fisica_Prototipo/Dusty/Content/NewMap.umap",
 				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/NewMap.umap",
 				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/Characters/MyBarco.uasset",
 				"C:/Users/carlos.calzada/Documents/GitHub/Fisica_Prototipo/Dusty/Content/Meshes/SuperBarco_pCube9.uasset",
