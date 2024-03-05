@@ -29,7 +29,7 @@ void AGravityForce::Tick(float DeltaTime)
 	float totalMass = mass * 100000;
 	FVector direction = Distance / Distance.Size();
 
-	force = ((G * totalMass) / (Distance.Size() * Distance.Size())) * direction; //Gravity force phormula
+	force = ((G * totalMass) / (Distance.Size() * Distance.Size())) * direction; //Gravity force formula
 
 	object->SetActorLocation(object->GetActorLocation() - force * 1000.0f * DeltaTime); //Displacement of the object
 }
