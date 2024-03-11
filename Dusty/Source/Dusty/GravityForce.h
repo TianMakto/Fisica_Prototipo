@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "GravityForce.generated.h"
 
+class UMyGameInstanceSubsystem;
+
 UCLASS()
 class DUSTY_API AGravityForce : public AActor
 {
@@ -30,4 +32,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	FVector force;
+
+	UMyGameInstanceSubsystem* myGameInstance;
 };

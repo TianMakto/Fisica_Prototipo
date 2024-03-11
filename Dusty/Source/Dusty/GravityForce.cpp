@@ -2,6 +2,8 @@
 
 
 #include "GravityForce.h"
+//#include "Subsystems/GameInstanceSubsystem.h"
+#include "MyGameInstanceSubsystem.h"
 
 // Sets default values
 AGravityForce::AGravityForce()
@@ -16,11 +18,13 @@ void AGravityForce::BeginPlay()
 {
 	Super::BeginPlay();
 	mass *= 10e8; //Modify the mass to avoid so big values in the unreal editor
+	myGameInstance = GetGameInstance()->GetSubsystem<UMyGameInstanceSubsystem>();
 }
 
 // Called every frame
 void AGravityForce::Tick(float DeltaTime)
 {
+	myGameInstance->SayHello();
 	Super::Tick(DeltaTime);
 	FVector Distance = object->GetActorLocation() - GetActorLocation(); //Get the distance between objects
 	//float earthMass = 5.972e24;
