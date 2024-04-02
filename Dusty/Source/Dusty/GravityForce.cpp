@@ -2,7 +2,8 @@
 
 
 #include "GravityForce.h"
-//#include "Subsystems/GameInstanceSubsystem.h"
+#include "Subsystems/GameInstanceSubsystem.h"
+#include "Planet.h"
 #include "MyGameInstanceSubsystem.h"
 
 // Sets default values
@@ -17,8 +18,19 @@ AGravityForce::AGravityForce()
 void AGravityForce::BeginPlay()
 {
 	Super::BeginPlay();
-	mass *= 10e8; //Modify the mass to avoid so big values in the unreal editor
+	; //Modify the mass to avoid so big values in the unreal editor
 	myGameInstance = GetGameInstance()->GetSubsystem<UMyGameInstanceSubsystem>();
+	////for (int i = 0; i < object.Num(); i++)
+	////{
+	////	FVector Distance = object[i]->GetActorLocation() - GetActorLocation(); //Get the distance between objects
+	////	Distance.Normalize();
+	////	float radius = mass / ((object[i]->velocityFactor / 100) * (object[i]->velocityFactor / 100));
+	////	object[i]->desiredRadius = radius;
+
+	////	object[i]->SetActorLocation(GetActorLocation() - (Distance * radius * 3));
+
+	//}
+	
 }
 
 // Called every frame
@@ -26,15 +38,43 @@ void AGravityForce::Tick(float DeltaTime)
 {
 	myGameInstance->SayHello();
 	Super::Tick(DeltaTime);
-	FVector Distance = object->GetActorLocation() - GetActorLocation(); //Get the distance between objects
-	//float earthMass = 5.972e24;
-	//float moonMass = 7.349e22;
-	float G = 6.67e-11; //Universal gravity const
-	float totalMass = mass * 100000;
-	FVector direction = Distance / Distance.Size();
 
-	force = ((G * totalMass) / (Distance.Size() * Distance.Size())) * direction; //Gravity force formula
+	for (int i = 0; i < object.Num(); i++)
+	{
+		FVector Distance = object[i]->GetActorLocation() - GetActorLocation(); //Get the distance between objects
+		float DistanceSize = Distance.Size();
 
-	object->SetActorLocation(object->GetActorLocation() - force * 1000.0f * DeltaTime); //Displacement of the object
+		object[i]->distance = Distance;
+		object[i]->velocity = FVector(Distance.Y, -Distance.X, Distance.Z);
+		object[i]->velocity.Normalize();
+		object[i]->velocity *= object[i]->velocityFactor;
+
+		float totalMass = mass * object[i]->mass;
+		FVector direction = Distance / Distance.Size();
+
+		force = ((totalMass) / (Distance.Size() * Distance.Size())) * direction; //Gravity force formula
+
+		//object[i]->mesh->AddForce(force * -100);
+		UE_LOG(LogTemp, Warning, TEXT("%f"), object[i]->desiredRadius);
+		UE_LOG(LogTemp, Warning, TEXT("%f"), Distance.Size());
+
+
+
+		DrawDebugPoint(GetWorld(), object[i]->GetActorLocation(), 1.5f, FColor::Green, true);
+		 
+		
+		//float radius = mass / ((object[i]->velocity.Size() / 100) * (object[i]->velocity.Size() / 100));
+
+		//if ((DistanceSize - object[i]->desiredRadius) > 20)
+		//{
+		//	FVector newDistance = Distance;
+		//	newDistance.Normalize();
+		//	object[i]->SetActorLocation(object[i]->GetActorLocation() - (newDistance * 20));
+		//	
+		//}
+
+		//object->SetActorLocation(object->GetActorLocation() - force * 1000.0f * DeltaTime); //Displacement of the object
+
+	}
 }
 

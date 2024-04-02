@@ -7,6 +7,7 @@
 #include "GravityForce.generated.h"
 
 class UMyGameInstanceSubsystem;
+class APlanet;
 
 UCLASS()
 class DUSTY_API AGravityForce : public AActor
@@ -25,7 +26,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere)
-	AActor* object;
+	TArray<APlanet*> object;
 
 	UPROPERTY(EditAnywhere)
 	float mass;
