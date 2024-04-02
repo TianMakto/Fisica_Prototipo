@@ -1,0 +1,7 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" DustyEditor Win64 DebugGame -Project="C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Dusty.uproject" -WaitMutex -FromMsBuild
+  Log file: C:\Users\carlos.caz\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo).
+  Waiting for 'git status' command to complete
+  Target is up to date
+  Total execution time: 3.90 seconds
