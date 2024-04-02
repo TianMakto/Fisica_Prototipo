@@ -22,7 +22,7 @@ void APlanet::BeginPlay()
 {
 	Super::BeginPlay();
 	velocity *= velocityFactor;
-	projectionPlanet->rotationSpeed = velocityFactor * 0.117f;
+	//projectionPlanet->rotationSpeed = velocityFactor * 0.117f;
 	physicsSubsystem = GetGameInstance()->GetSubsystem<UPhysicsManager>();
 	
 }
@@ -34,11 +34,5 @@ void APlanet::Tick(float DeltaTime)
 
 	FVector newPos = GetActorLocation() + (velocity * DeltaTime);
 	SetActorLocation(newPos);
-	projectionPlanet->distance = distance;
-	float x = desiredRadius / distance.Size();
-	physicsSubsystem->SetGravity(x);
-
-	
-
 }
 

@@ -55,8 +55,6 @@ void AGravityForce::Tick(float DeltaTime)
 		force = ((totalMass) / (Distance.Size() * Distance.Size())) * direction; //Gravity force formula
 
 		//object[i]->mesh->AddForce(force * -100);
-		UE_LOG(LogTemp, Warning, TEXT("%f"), object[i]->desiredRadius);
-		UE_LOG(LogTemp, Warning, TEXT("%f"), Distance.Size());
 
 
 

@@ -14,6 +14,17 @@ UCLASS()
 class DUSTY_API UPhysicsManager : public UGameInstanceSubsystem
 {
    GENERATED_BODY()
+private:
+    // All my variables
+    UPROPERTY(EditAnywhere)
+    int num;
+
+    float defaultGravity;
+    float defaultMagnetism;
+
+    float gravity;
+    float magnetismForce;
+
 public:
     // Begin USubsystem
     virtual void Initialize(FSubsystemCollectionBase& Collection) override;
@@ -21,15 +32,11 @@ public:
     // End USubsystem
 
     void IncrementResourceStat();
+
     void SetGravity(float _gravityFactor);
+    void SetMagnetism(float _magnetism);
 
     float GetGravity();
+    float GetMagnetism();
 
-private:
-    // All my variables
-    UPROPERTY(EditAnywhere)
-    int num;
-
-    float defaultGravity;
-    float gravity;
 };

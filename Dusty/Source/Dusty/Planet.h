@@ -26,6 +26,7 @@ protected:
 public:	
 
 	//Subsystems:
+	UPROPERTY(EditAnywhere)
 	UPhysicsManager* physicsSubsystem;
 	
 

@@ -28,7 +28,7 @@ void ABasicActor::BeginPlay()
 void ABasicActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	mesh->AddForce(GetActorUpVector() * physicsManager->GetGravity() * 100);
+	mesh->AddForce(GetActorUpVector() * physicsManager->GetGravity() * 1000);
 	UE_LOG(LogTemp, Warning, TEXT("Gravity: %f"), physicsManager->GetGravity())
 
 }
