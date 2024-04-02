@@ -1,0 +1,35 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Dusty-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\DustyEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Barco.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\BasicActor.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\CuboBarco.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Dusty.init.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\GravityForce.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\GravityPlanet.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\MagnetismPlanet.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\MyDataAsset.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\MyGameInstanceSubsystem.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\PhysicsManager.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Planet.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\RealPlanet.gen.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Barco.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\BasicActor.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\CuboBarco.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Dusty.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\MyDataAsset.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\MyGameInstanceSubsystem.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\RealPlanet.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\GravityForce.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\GravityPlanet.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\MagnetismPlanet.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\PhysicsManager.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Planet.cpp.obj"
+"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\Default.rc2.res"
+/OUT:"C:\Users\carlos.caz\Documents\Unreal Projects\Fisica_Prototipo\Dusty\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Dusty\UnrealEditor-Dusty-Win64-DebugGame.lib"

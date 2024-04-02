@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\unrealeditor\\inc\\dusty\\uht\\dusty.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\x64\\dustyeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dusty\\definitions.dusty.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

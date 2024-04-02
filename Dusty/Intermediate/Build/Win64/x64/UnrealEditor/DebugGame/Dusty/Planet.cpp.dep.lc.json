@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\source\\dusty\\planet.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\x64\\dustyeditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\dusty\\definitions.dusty.h",
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\source\\dusty\\planet.h",
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\unrealeditor\\inc\\dusty\\uht\\planet.generated.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\rotatingmovementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rotatingmovementcomponent.generated.h",
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\source\\dusty\\realplanet.h",
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\unrealeditor\\inc\\dusty\\uht\\realplanet.generated.h",
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\source\\dusty\\physicsmanager.h",
+            "c:\\users\\carlos.caz\\documents\\unreal projects\\fisica_prototipo\\dusty\\intermediate\\build\\win64\\unrealeditor\\inc\\dusty\\uht\\physicsmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
